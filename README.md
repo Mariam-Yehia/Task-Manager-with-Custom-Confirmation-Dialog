@@ -13,13 +13,6 @@ Task Management: Add, edit, complete, and delete tasks
 Persistent Data: Tasks are saved in the browser's localStorage
 Custom Confirmation Dialog: A user-friendly confirmation dialog appears before deleting a task
 Responsive Design: Fully responsive layout for desktop, tablet, and mobile
-Installation
-Clone or download the repository to your local machine.
-
-bash
-Copy code
-git clone https://github.com/yourusername/task-manager.git
-Open the index.html file in any web browser to run the application.
 
 Usage
 Add Task: Type a task into the input field and click "Add Task" or press Enter.
