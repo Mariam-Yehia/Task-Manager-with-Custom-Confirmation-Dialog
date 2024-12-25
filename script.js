@@ -29,9 +29,11 @@ function addTask(text, completed = false) {
   
   li.innerHTML = `
     <span class="text">${text}</span>
-    <button class="complete">✔</button>
-    <button class="edit">✎</button>
-    <button class="delete">✖</button>
+    <div class="button-container">
+        <button class="complete">✔</button>
+        <button class="edit">✎</button>
+        <button class="delete">✖</button>
+    </div>
   `;
 
   // Mark task as completed
